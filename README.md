@@ -18,3 +18,7 @@ const y = x.plus(0.2);               // '0.3'
 new BigNumber(0.7).plus(x).plus(y);  // '1'
 x.plus('0.1', 8);                    // '0.225'
 ```
+
+## Contributing
+The tests use examples from the [docs](http://mikemcl.github.io/bignumber.js/).
+You can run them by running `npm run build` and `npm run test`.

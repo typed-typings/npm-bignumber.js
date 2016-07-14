@@ -11,7 +11,7 @@ typings install --save bignumber.js
 ## Usage
 
 ```ts
-import BigNumber = require('bignumber.js');
+import BigNumber from 'bignumber.js';
 
 const x = new BigNumber(0.1);
 const y = x.plus(0.2);               // '0.3'

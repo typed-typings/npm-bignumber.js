@@ -1,5 +1,5 @@
 
-import BigNumber = require('bignumber.js');
+import BigNumber from 'bignumber.js';
 
 new BigNumber('5032485723458348569331745.33434346346912144534543');
 new BigNumber('4.321e+4');

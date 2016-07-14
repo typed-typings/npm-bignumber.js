@@ -1,5 +1,5 @@
 
-interface Format {
+export interface Format {
     /** the decimal separator */
     decimalSeparator?: string;
     /** the grouping separator of the integer part */
@@ -14,7 +14,7 @@ interface Format {
     fractionGroupSize?: number;
 }
 
-interface Configuration {
+export interface Configuration {
 
     /**
      * The maximum number of decimal places of the results of operations involving division, i.e. division, square root and base conversion operations, and power operations with negative exponents.
@@ -125,7 +125,7 @@ declare enum RoundingMode {
     EUCLID = 9
 }
 
-declare class BigNumber {
+export class BigNumber {
 
     /** Rounds away from zero */
     static ROUND_UP: RoundingMode;
@@ -664,4 +664,4 @@ declare class BigNumber {
     trunc(): BigNumber;
 }
 
-export = BigNumber;
+export default BigNumber;

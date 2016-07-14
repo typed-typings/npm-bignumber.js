@@ -1,5 +1,6 @@
 {
   "name": "bignumber.js",
+  "version": "^2.4.0",
   "main": "bignumber.d.ts",
   "dependencies": {}
 }

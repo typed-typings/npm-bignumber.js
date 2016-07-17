@@ -12,7 +12,6 @@
   "author": "Felix Becker <felix.b@outlook.com>",
   "license": "ISC",
   "devDependencies": {
-    "surge": "^0.18.0",
     "tslint": "^3.13.0",
     "typedoc": "^0.4.4",
     "typescript": "^1.8.10",

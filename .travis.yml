@@ -5,6 +5,9 @@ script:
  - npm run lint
  - npm run build
  - npm test
-after_success:
+before_deploy:
  - npm run typedoc
- - surge --project typedoc --domain typed-bignumber-js.surge.sh
+deploy:
+ provider: surge
+ project: ./typedoc/
+ domain: typed-bignumber-js.surge.sh

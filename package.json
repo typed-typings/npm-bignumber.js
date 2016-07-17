@@ -4,7 +4,7 @@
   "private": true,
   "description": "Typings for bignumber.js",
   "scripts": {
-    "build": "typings bundle -o dist/index.d.ts",
+    "build": "typings bundle -o test/bundle.d.ts",
     "test": "tsc -p test",
     "lint": "tslint -c tslint.json bignumber.d.ts"
   },

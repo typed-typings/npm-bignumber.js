@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "target": "es2015",
+    "module": "es2015"
   }
 }

@@ -6,12 +6,15 @@
   "scripts": {
     "build": "typings bundle -o test/bundle.d.ts",
     "test": "tsc -p test",
-    "lint": "tslint -c tslint.json bignumber.d.ts"
+    "lint": "tslint -c tslint.json bignumber.d.ts",
+    "typedoc": "typedoc --includeDeclarations --mode file --readme none --out typedoc bignumber.d.ts"
   },
   "author": "Felix Becker <felix.b@outlook.com>",
   "license": "ISC",
   "devDependencies": {
+    "surge": "^0.18.0",
     "tslint": "^3.13.0",
+    "typedoc": "^0.4.4",
     "typescript": "^1.8.10",
     "typings": "^1.3.1"
   }

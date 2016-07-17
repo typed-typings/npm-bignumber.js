@@ -2,3 +2,4 @@ bundle.d.ts
 node_modules/
 .vscode/
 *.js
+typedoc/

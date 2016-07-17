@@ -3,6 +3,8 @@
 
 Typescript Typings for [bignumber.js](https://github.com/MikeMcl/bignumber.js).
 
+## [API Documentation](http://typed-bignumber-js.surge.sh/classes/bignumber)
+
 ## Installation
 ```sh
 typings install --save bignumber.js

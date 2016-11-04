@@ -1,5 +1,5 @@
 # Typed bignumber.js
-[![Build Status](https://travis-ci.org/felixfbecker/typed-bignumber.js.svg?branch=master)](https://travis-ci.org/felixfbecker/typed-bignumber.js)
+[![Build Status](https://travis-ci.org/types/npm-bignumber.js.svg?branch=master)](https://travis-ci.org/types/npm-bignumber.js)
 
 Typescript Typings for [bignumber.js](https://github.com/MikeMcl/bignumber.js).
 

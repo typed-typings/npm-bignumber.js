@@ -1,4 +1,6 @@
 # Typed bignumber.js
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-bignumber.js.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/types/npm-bignumber.js.svg?branch=master)](https://travis-ci.org/types/npm-bignumber.js)
 
 Typescript Typings for [bignumber.js](https://github.com/MikeMcl/bignumber.js).
